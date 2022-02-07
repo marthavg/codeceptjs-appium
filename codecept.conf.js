@@ -17,12 +17,11 @@ exports.config = {
       desiredCapabilities: {
         autoGrantPermissions: true,
         automationName: "UiAutomator1",
-        appWaitPackage: "com.cencosud.pe.wong",//'com.alibaba.aliexpresshd',
-        appPackage: "com.cencosud.pe.wong",//"",
+        appWaitPackage: "com.cencosud.pe.wong",
+        appPackage: "com.cencosud.pe.wong",
         appWaitActivity: "com.cencosud.pe.wong.registration.RegistrationActivity",
-        appActivity: "com.cencosud.pe.wong.registration.RegistrationActivity",//"com.alibaba.aliexpresshd.home.ui.MainActivity",
-        //platformName: "Android",
-        deviceName: '19f7ad26',//'n79d49gytwjn6hay', //'emulator'
+        appActivity: "com.cencosud.pe.wong.registration.RegistrationActivity",
+        deviceName: '19f7ad26',
         platformVersion: "9",
         noReset: false
       }
